@@ -82,25 +82,25 @@ formatter.match({
   "location": "annotation.iHaveOpenTheGmail()"
 });
 formatter.result({
-  "duration": 15620149532,
+  "duration": 14250479184,
   "status": "passed"
 });
 formatter.match({
   "location": "annotation.i_input_the_username()"
 });
 formatter.result({
-  "duration": 192830352,
+  "duration": 230158630,
   "status": "passed"
 });
 formatter.match({
   "location": "annotation.nextButtonShouldExits()"
 });
 formatter.result({
-  "duration": 13701420,
+  "duration": 10294010,
   "status": "passed"
 });
 formatter.after({
-  "duration": 804982024,
+  "duration": 305463610,
   "status": "passed"
 });
 });

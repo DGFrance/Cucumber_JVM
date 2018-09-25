@@ -29,7 +29,7 @@ public class annotation {
     @Then("^next button should exits$")
     public void nextButtonShouldExits() throws Throwable {
         // Write code here that turns the phrase above into concrete actions
-        driver.findElement(By.xpath("//SPAN[@class='RveJvd snByac'][text()='Next']"));
+        driver.findElement(By.xpath("//SPAN[@class='RveJvd snByac'][text()='Berikutnya']"));
     }
 
     @After
