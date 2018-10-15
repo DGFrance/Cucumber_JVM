@@ -1,4 +1,4 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/test/java/cucumberJava/cucumberJava.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/test/java/cucumberJava/TicketFeature/LoginMCarrot.feature");
 formatter.feature({
   "line": 1,
   "name": "CucumberJava",
@@ -8,15 +8,15 @@ formatter.feature({
 });
 formatter.scenarioOutline({
   "line": 3,
-  "name": ": Login functionality exists",
+  "name": ": Login Mitrais Carrot",
   "description": "",
-  "id": "cucumberjava;:-login-functionality-exists",
+  "id": "cucumberjava;:-login-mitrais-carrot",
   "type": "scenario_outline",
   "keyword": "Scenario Outline"
 });
 formatter.step({
   "line": 5,
-  "name": "I have open the Gmail",
+  "name": "I have open the mitrais carrot web",
   "keyword": "Given "
 });
 formatter.step({
@@ -33,36 +33,36 @@ formatter.examples({
   "line": 11,
   "name": "",
   "description": "",
-  "id": "cucumberjava;:-login-functionality-exists;",
+  "id": "cucumberjava;:-login-mitrais-carrot;",
   "rows": [
     {
       "cells": [
         "option"
       ],
       "line": 12,
-      "id": "cucumberjava;:-login-functionality-exists;;1"
+      "id": "cucumberjava;:-login-mitrais-carrot;;1"
     },
     {
       "cells": [
         "username"
       ],
       "line": 13,
-      "id": "cucumberjava;:-login-functionality-exists;;2"
+      "id": "cucumberjava;:-login-mitrais-carrot;;2"
     }
   ],
   "keyword": "Examples"
 });
 formatter.scenario({
   "line": 13,
-  "name": ": Login functionality exists",
+  "name": ": Login Mitrais Carrot",
   "description": "",
-  "id": "cucumberjava;:-login-functionality-exists;;2",
+  "id": "cucumberjava;:-login-mitrais-carrot;;2",
   "type": "scenario",
   "keyword": "Scenario Outline"
 });
 formatter.step({
   "line": 5,
-  "name": "I have open the Gmail",
+  "name": "I have open the mitrais carrot web",
   "keyword": "Given "
 });
 formatter.step({
@@ -79,28 +79,28 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "annotation.iHaveOpenTheGmail()"
+  "location": "LoginMCarrot.i_have_open_the_mitrais_carrot_web()"
 });
 formatter.result({
-  "duration": 14250479184,
+  "duration": 12901408393,
   "status": "passed"
 });
 formatter.match({
-  "location": "annotation.i_input_the_username()"
+  "location": "LoginMCarrot.i_input_the_username()"
 });
 formatter.result({
-  "duration": 230158630,
+  "duration": 203033870,
   "status": "passed"
 });
 formatter.match({
-  "location": "annotation.nextButtonShouldExits()"
+  "location": "LoginMCarrot.nextButtonShouldExits()"
 });
 formatter.result({
-  "duration": 10294010,
+  "duration": 1367871765,
   "status": "passed"
 });
 formatter.after({
-  "duration": 305463610,
+  "duration": 2315162042,
   "status": "passed"
 });
 });
